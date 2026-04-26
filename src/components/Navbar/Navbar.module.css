@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem 1.5rem;
+  background: #131a33;
+  border-bottom: 1px solid #243057;
+}
+.navbar__brand { font-weight: 700; font-size: 1.1rem; }
+.navbar__links { display: flex; gap: 1rem; list-style: none; margin: 0; padding: 0; }
+.navbar__link { color: #aab2cc; text-decoration: none; padding: 0.25rem 0.5rem; border-radius: 4px; }
+.navbar__link--active { color: #fff; background: #243057; padding: 0.25rem 0.5rem; border-radius: 4px; text-decoration: none; }
