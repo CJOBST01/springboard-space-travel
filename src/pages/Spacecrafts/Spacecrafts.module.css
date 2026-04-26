@@ -1,0 +1,5 @@
+.spacecrafts { padding: 1.5rem; max-width: 1100px; margin: 0 auto; }
+.spacecrafts__header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem; }
+.spacecrafts__build { background: #1f4d3a; color: #d3ffd6; padding: 0.5rem 1rem; border-radius: 4px; text-decoration: none; }
+.spacecrafts__list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
+.spacecrafts__error { color: #ff7a85; }
