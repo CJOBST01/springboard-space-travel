@@ -1,0 +1,25 @@
+.construction { padding: 1.5rem; max-width: 600px; margin: 0 auto; }
+.construction__back { background: none; border: none; color: #6cb2ff; padding: 0; margin-bottom: 1rem; font-size: 0.95rem; }
+.construction__form { display: flex; flex-direction: column; gap: 1rem; }
+.construction__field { display: flex; flex-direction: column; gap: 0.25rem; }
+.construction__field input,
+.construction__field textarea {
+  padding: 0.5rem;
+  background: #131a33;
+  border: 1px solid #243057;
+  color: #e6e9f2;
+  border-radius: 4px;
+  font: inherit;
+}
+.construction__field textarea { min-height: 80px; }
+.construction__error { color: #ff7a85; font-size: 0.85rem; }
+.construction__submit {
+  align-self: flex-start;
+  background: #1f4d3a;
+  color: #d3ffd6;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  font: inherit;
+}
+.construction__submit:disabled { opacity: 0.6; cursor: not-allowed; }
