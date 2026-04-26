@@ -1,0 +1,18 @@
+.planets { padding: 1.5rem; max-width: 1100px; margin: 0 auto; }
+.planets__list { list-style: none; padding: 0; margin: 0 0 2rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1rem; }
+.planets__item { background: #131a33; border: 1px solid #243057; border-radius: 8px; padding: 1rem; }
+.planets__name { margin: 0 0 0.25rem; font-size: 1.1rem; }
+.planets__pop { margin: 0 0 0.5rem; color: #aab2cc; font-size: 0.9rem; }
+.planets__crafts { list-style: none; padding: 0; margin: 0; font-size: 0.9rem; }
+.planets__empty { color: #6a7290; font-style: italic; }
+.planets__dispatch { display: flex; flex-direction: column; gap: 0.75rem; max-width: 400px; padding: 1rem; background: #131a33; border-radius: 8px; }
+.planets__dispatch label { display: flex; flex-direction: column; gap: 0.25rem; }
+.planets__dispatch select, .planets__dispatch button {
+  padding: 0.5rem;
+  background: #0b1020;
+  color: #e6e9f2;
+  border: 1px solid #243057;
+  border-radius: 4px;
+  font: inherit;
+}
+.planets__error { color: #ff7a85; margin: 0; }
