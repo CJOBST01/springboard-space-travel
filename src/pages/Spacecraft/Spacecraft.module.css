@@ -1,0 +1,5 @@
+.spacecraft { padding: 1.5rem; max-width: 700px; margin: 0 auto; }
+.spacecraft__back { display: inline-block; margin-bottom: 1rem; color: #6cb2ff; text-decoration: none; }
+.spacecraft__details { display: grid; grid-template-columns: max-content 1fr; gap: 0.5rem 1.5rem; margin-top: 1rem; }
+.spacecraft__details dt { color: #aab2cc; font-weight: 600; }
+.spacecraft__details dd { margin: 0; }
